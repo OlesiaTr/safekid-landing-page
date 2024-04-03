@@ -1,0 +1,26 @@
+{
+  "id": "#faq",
+  "title": "Часті питання (FAQ)",
+  "questionData": [
+    {
+      "question": "На скільки це безпечно для дитини?",
+      "answer": "Додаток є абсолютно безпечним для вашої дитини. Ми не зберігаємо ні будь-яких особистих даних, ні розмов. Додаток не має доступу ні до чого в телефоні окрім мікрофона (доступ до мікрофона потрібно додати на постійній основі (“Завжди”) для можливості ідентифікувати та надалі реагувати на тригерні фрази при розмові дитини з кимось)."
+    },
+    {
+      "question": "Чи не будуть слідкувати за моєю дитиною інші люди, які мають доступ до додатку?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "question": "Чи можу я додати декількох дітей?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "question": "Чи можуть всі дорослі члени сім'ї встановити собі окремі додатки для однієї дитини?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "question": "Чи сильно додаток садить батарею?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  ]
+}

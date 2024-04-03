@@ -1,0 +1,12 @@
+{
+  "id": "#download-app",
+  "title": "Завантажуйте додаток SafeKid та підвищуйте безпеку своєї дитини вже сьогодні!",
+  "mobileBtn": {
+    "labelIOS": "Завантажити на iOS",
+    "labelAndroid": "Завантажити на Android"
+  },
+  "mobileQR": {
+    "labelIOS": "Скануй на iOS",
+    "labelAndroid": "Скануй на Android"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "logo": {
+    "path": "/",
+    "name": "SafeKid",
+    "ariaLabel": "Посилання із логотипом компанії"
+  },
+  "navLinks": [
+    {
+      "path": "#relevance",
+      "label": "Актуальність"
+    },
+    {
+      "path": "#description",
+      "label": "Для кого"
+    },
+    {
+      "path": "#functionality",
+      "label": "Про додаток"
+    },
+    {
+      "path": "#about-us",
+      "label": "Про нас"
+    },
+    {
+      "path": "#download-app",
+      "label": "Завантажити"
+    },
+    {
+      "path": "#faq",
+      "label": "Часті питання (FAQ)"
+    }
+  ],
+  "mobileMenu": {
+    "openBtnAriaLabel": "Кнопка відкриття меню",
+    "closeBtnAriaLabel": "Кнопка закриття меню"
+  },
+  "title": "Захистіть свою дитину!\n Переконайтесь у безпеці своєї дитини навіть ящо ви не поруч!",
+  "label": "Додаток SafeKid для запобігання викрадення дітей чи завдання їм шкоди. Додаток SafeKid призначений розпізнати в оточенні дитини потенційно небезпечні фрази і повідомити про це батькам і самій дитині.",
+  "desktopBtn": { "label": "Завантажити SafeKid" },
+  "mobileBtn": {
+    "labelIOS": "Завантажити на iOS",
+    "labelAndroid": "Завантажити на Android"
+  }
+}
