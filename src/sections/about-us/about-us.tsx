@@ -6,7 +6,7 @@ import videoPlaceholderMob from '../../../public/images/video_placeholder-mob.pn
 
 export const AboutUs = () => {
   return (
-    <section className="section md:flex-row " id={data.id}>
+    <section className="section gap-6 md:flex-row " id={data.id}>
       <div className="  self-start md:flex-1 ">
         <Title title={data.title} />
 
