@@ -3,20 +3,21 @@
     "label": "© 2024 SAFEKID"
   },
   "devs": {
-    "label": "Було розроблено  ",
+    "label": "Було розроблено",
     "creators": [
       {
         "label": "в рамках проєкту IT Cluster  ",
         "href": "/",
-        "ariaLabel": "Посилання на Kharkiv IT Cluster"
+        "ariaLabel": "Посилання на Kharkiv IT Cluster  "
       },
       {
-        "label": "за підтримки компанії VISEVEN",
+        "label": "  за підтримки компанії VISEVEN",
         "href": "/",
         "ariaLabel": "Посилання на компанію VISEVEN"
       }
     ]
   },
+  "contactInfo": { "label": "Зворотній зв’язок", "href": "/" },
   "policy": {
     "label": "Конфіденційність",
     "href": "/"
