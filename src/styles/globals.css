@@ -5,3 +5,7 @@
 .section {
   @apply mx-auto flex max-w-screen-xl flex-col px-4 pb-10  md:px-[72px] md:pb-20 xl:pb-[120px];
 }
+
+.active {
+  @apply block;
+}
