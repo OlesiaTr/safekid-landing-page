@@ -11,7 +11,7 @@ export const Relevance = () => {
 
         <div className="  self-start md:flex-1 ">
           <Title title={data.title} />
-          <List styles="list-disc list-inside">{data.relevanceFacts}</List>
+          <List styles="list-disc">{data.relevanceFacts}</List>
         </div>
       </div>
 

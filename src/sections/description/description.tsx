@@ -6,18 +6,14 @@ export const Description = () => {
     <section className="section items-start " id={data.id}>
       <Title title={data.title} />
 
-      <div className="mb-8 flex w-full flex-col justify-between gap-16 lg:flex-row">
+      <div className="mb-8 flex w-full flex-col justify-between gap-6 lg:flex-row lg:gap-16">
         <div className="flex-1">
           <ListTitle title={data.leftColumnData.label} />
-          <List styles="list-disc list-inside">
-            {data.leftColumnData.leftColumnPts}
-          </List>
+          <List styles="list-disc">{data.leftColumnData.leftColumnPts}</List>
         </div>
         <div className="flex-1">
           <ListTitle title={data.rightColumnData.label} />
-          <List styles="list-disc list-inside">
-            {data.rightColumnData.rightColumnPts}
-          </List>
+          <List styles="list-disc">{data.rightColumnData.rightColumnPts}</List>
         </div>
       </div>
 

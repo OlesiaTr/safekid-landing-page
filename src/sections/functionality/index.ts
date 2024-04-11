@@ -1,0 +1,1 @@
+export { Functionality } from './functionality';
