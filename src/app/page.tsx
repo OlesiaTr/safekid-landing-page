@@ -1,8 +1,10 @@
-import { AboutUs, Description, Footer } from '@/sections';
+import { AboutUs, Description, Footer, Relevance } from '@/sections';
 
 export default function Home() {
   return (
     <>
+      <Relevance />
+
       <Description />
 
       <AboutUs />
