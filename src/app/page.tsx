@@ -5,12 +5,15 @@ import {
   FAQ,
   Footer,
   Functionality,
+  Hero,
   Relevance,
 } from '@/sections';
 
 export default function Home() {
   return (
     <>
+      <Hero />
+
       <Relevance />
 
       <Description />
