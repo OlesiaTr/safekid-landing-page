@@ -1,6 +1,7 @@
 import {
   AboutUs,
   Description,
+  DownloadApp,
   FAQ,
   Footer,
   Functionality,
@@ -17,6 +18,8 @@ export default function Home() {
       <Functionality />
 
       <AboutUs />
+
+      <DownloadApp />
 
       <FAQ />
 
