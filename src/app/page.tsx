@@ -1,3 +1,7 @@
+'use client';
+
+import { ScrollToTopBtn } from '@/components/ui';
+import { description } from '@/constants';
 import {
   AboutUs,
   Description,
@@ -5,6 +9,7 @@ import {
   FAQ,
   Footer,
   Functionality,
+  Header,
   Hero,
   Relevance,
 } from '@/sections';
@@ -12,6 +17,8 @@ import {
 export default function Home() {
   return (
     <>
+      <Header />
+
       <Hero />
 
       <Relevance />
@@ -27,6 +34,8 @@ export default function Home() {
       <FAQ />
 
       <Footer />
+
+      <ScrollToTopBtn sectionIdStart={description} />
     </>
   );
 }

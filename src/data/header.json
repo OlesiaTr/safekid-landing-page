@@ -1,0 +1,37 @@
+{
+  "logo": {
+    "path": "/",
+    "name": "SafeKid",
+    "ariaLabel": "Посилання із логотипом компанії"
+  },
+  "navLinks": [
+    {
+      "path": "#relevance",
+      "label": "Актуальність"
+    },
+    {
+      "path": "#description",
+      "label": "Для кого"
+    },
+    {
+      "path": "#functionality",
+      "label": "Про додаток"
+    },
+    {
+      "path": "#about-us",
+      "label": "Про нас"
+    },
+    {
+      "path": "#download-app",
+      "label": "Завантажити"
+    },
+    {
+      "path": "#faq",
+      "label": "Часті питання (FAQ)"
+    }
+  ],
+  "mobileMenu": {
+    "openBtnAriaLabel": "Кнопка відкриття меню",
+    "closeBtnAriaLabel": "Кнопка закриття меню"
+  }
+}

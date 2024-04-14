@@ -4,5 +4,6 @@ export { DownloadApp } from './download-app';
 export { FAQ } from './faq';
 export { Footer } from './footer';
 export { Functionality } from './functionality';
+export { Header } from './header';
 export { Hero } from './hero';
 export { Relevance } from './relevance';
