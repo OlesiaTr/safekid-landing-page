@@ -1,0 +1,23 @@
+.scrollBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scrollBtn::before {
+  content: '';
+  width: 19px;
+  height: 19px;
+  background-image: url('/icons/icon_arrow.svg');
+  background-size: cover;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .scrollBtn {
+    right: calc((100vw - 1280px) * 0.5);
+  }
+}
