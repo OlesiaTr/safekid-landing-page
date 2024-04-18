@@ -9,15 +9,9 @@ export const DownloadApp = () => {
       <Title title={data.title} />
 
       <div className="flex flex-col items-center gap-4 md:gap-8 lg:flex-row lg:justify-around lg:gap-0">
-        <QRPlaceholder
-          label={data.mobileQR.labelAndroid}
-          btnLabel={data.mobileBtn.labelAndroid}
-        />
+        <QRPlaceholder btnLabel={data.mobileBtn.labelAndroid} />
 
-        <QRPlaceholder
-          label={data.mobileQR.labelIOS}
-          btnLabel={data.mobileBtn.labelIOS}
-        />
+        <QRPlaceholder btnLabel={data.mobileBtn.labelIOS} />
       </div>
     </section>
   );

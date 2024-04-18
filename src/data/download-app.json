@@ -4,9 +4,5 @@
   "mobileBtn": {
     "labelIOS": "Завантажити на iOS",
     "labelAndroid": "Завантажити на Android"
-  },
-  "mobileQR": {
-    "labelIOS": "Скануй на iOS",
-    "labelAndroid": "Скануй на Android"
   }
 }
