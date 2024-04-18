@@ -9,3 +9,4 @@ export { QRPlaceholder } from './qr-placeholder';
 export { ScrollToTopBtn } from './scroll-to-top-btn';
 export { Title } from './title';
 export { VideoPlaceholderImg } from './video-placeholder-img';
+export { YoutubeEmbed } from './youtube-embed';
