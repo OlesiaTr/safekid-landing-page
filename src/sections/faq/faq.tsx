@@ -41,7 +41,7 @@ export const FAQ = () => {
             </div>
 
             {active === id && (
-              <p className="leading-normal md:text-lg xl:text-2xl">
+              <p className="ml-8 leading-normal md:text-lg xl:text-2xl">
                 {item.answer}
               </p>
             )}
