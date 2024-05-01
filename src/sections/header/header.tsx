@@ -11,8 +11,8 @@ export const Header = () => {
   const toggleModal = () => setIsOpen(!isOpen);
 
   return (
-    <header className="m-auto max-w-screen-xl bg-neutral-500 lg:bg-neutral-300">
-      <div className="flex items-center justify-between px-4 md:px-[72px]">
+    <header className=" relative bg-blue lg:absolute lg:inset-x-0 lg:top-0 lg:w-full lg:bg-transparent">
+      <div className="flex items-center justify-between px-4 lg:px-[56px] xl:px-[72px] xxl:justify-center xxl:gap-24 ">
         <Logo />
 
         <Navigation location="header" links={data.navLinks} />

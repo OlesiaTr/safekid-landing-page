@@ -3,9 +3,57 @@
 @tailwind utilities;
 
 .section {
-  @apply mx-auto flex max-w-screen-xl flex-col px-4 pb-10  md:px-[72px] md:pb-20 xl:pb-[120px];
+  @apply mx-auto flex max-w-screen-xxl flex-col px-4 pb-10  md:px-[72px] md:pb-20 xl:pb-[120px];
 }
 
 .active {
   @apply block;
+}
+
+/* HERO */
+.hero {
+  background-image: linear-gradient(
+      to right,
+      rgba(251, 251, 251, 0.3),
+      rgba(251, 251, 251, 0.3)
+    ),
+    url('../../public/images/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center top 0;
+  background-size:
+    780px 100%,
+    cover;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    background-size:
+      1046px 596px,
+      cover;
+    background-position: top 0 right 0px;
+    background-image: linear-gradient(
+        to right,
+        rgba(251, 251, 251, 0.2),
+        rgba(251, 251, 251, 0.2)
+      ),
+      url('../../public/images/hero.jpg');
+  }
+}
+
+@media (min-width: 1046px) {
+  .hero {
+    background-size:
+      100% 840px,
+      cover;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero {
+    background-size:
+      1440px 100%,
+      cover;
+    background-position: center top 0;
+    background-image: url('../../public/images/hero.jpg');
+  }
 }

@@ -12,7 +12,7 @@ export interface Props {
 export const Navigation: FC<Props> = ({ location, links }) => {
   return (
     <nav className={location === 'header' ? 'hidden lg:block' : ''}>
-      <ul className="flex gap-4 xl:gap-12">
+      <ul className="flex lg:gap-2 xl:gap-8 xxl:gap-12">
         {links.map((item, id) => (
           <li key={id}>
             <a

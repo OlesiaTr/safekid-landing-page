@@ -13,7 +13,7 @@ export const MenuBtn: FC<Props> = ({ ariaLabel, onClick, isOpen }) => {
       type="button"
       onClick={onClick}
       aria-label={ariaLabel}
-      className="transition lg:hidden"
+      className="text-white transition lg:hidden"
     >
       {isOpen ? (
         <XMarkIcon className="size-8" />

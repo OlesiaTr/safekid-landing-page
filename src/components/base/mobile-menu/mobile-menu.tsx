@@ -12,7 +12,7 @@ export interface Props {
 export const MobileMenu: FC<Props> = ({ closeModal }) => {
   return (
     <div className="fixed w-full transition lg:hidden">
-      <div className="rounded-b-[40px] bg-neutral-500 px-4 py-6 md:px-20">
+      <div className="rounded-b-[40px] bg-blue px-4 py-6 md:px-20">
         <ul className="flex flex-col gap-4">
           {data.navLinks.map((item, id) => (
             <li
@@ -25,7 +25,7 @@ export const MobileMenu: FC<Props> = ({ closeModal }) => {
             >
               <a
                 href={item.path}
-                className="text-xl font-medium leading-normal"
+                className="text-xl font-medium leading-normal text-white"
               >
                 {item.label}
               </a>

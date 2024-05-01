@@ -14,6 +14,7 @@ const config: Config = {
       md: '768px',
       lg: '1024px',
       xl: '1280px',
+      xxl: '1440px',
     },
     extend: {
       transitionDuration: {
@@ -21,6 +22,9 @@ const config: Config = {
       },
       transitionTimingFunction: {
         DEFAULT: 'cubic-bezier(0.4, 0, 0.2, 1)',
+      },
+      colors: {
+        blue: '#374785',
       },
     },
   },
