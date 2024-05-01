@@ -24,7 +24,8 @@ const config: Config = {
         DEFAULT: 'cubic-bezier(0.4, 0, 0.2, 1)',
       },
       colors: {
-        blue: '#374785',
+        accent: '#374785',
+        blue: '#2563EB',
       },
     },
   },

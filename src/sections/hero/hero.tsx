@@ -1,16 +1,16 @@
 import { Button } from '@/components/ui';
 import data from '@/data/hero.json';
+import { findSubstringIndices, smoothScroll } from '@/utils';
+import { MouseEvent } from 'react';
 
 export const Hero = () => {
   // The index of the start and end of the first substring
-  const firstSubstring = 'запобігання викрадення дітей';
-  const startIndexFirst = data.label.indexOf(firstSubstring);
-  const endIndexFirst = startIndexFirst + firstSubstring.length;
+  const { startIndex: startIndexFirst, endIndex: endIndexFirst } =
+    findSubstringIndices(data.label, 'запобігання викрадення дітей');
 
   // The index of the start and end of the second substring
-  const secondSubstring = 'завдання їм шкоди';
-  const startIndexSecond = data.label.indexOf(secondSubstring);
-  const endIndexSecond = startIndexSecond + secondSubstring.length;
+  const { startIndex: startIndexSecond, endIndex: endIndexSecond } =
+    findSubstringIndices(data.label, 'завдання їм шкоди');
 
   // Split the text into four substrings
   const beforeFirst = data.label.substring(0, startIndexFirst);
@@ -38,7 +38,8 @@ export const Hero = () => {
       <div className="hidden md:block">
         <Button
           label={data.desktopBtn.label}
-          styles="bg-white bg-opacity-30 border-[3px] border-blue text-blue text-[32px]"
+          styles="bg-white bg-opacity-30 border-[3px] border-accent text-accent text-[32px]"
+          onClick={(e: MouseEvent) => smoothScroll(e, data.linkToDownload)}
         />
       </div>
 
@@ -46,8 +47,13 @@ export const Hero = () => {
         <Button
           label={data.mobileBtn.labelAndroid}
           styles="w-full text-white "
+          onClick={(e: MouseEvent) => smoothScroll(e, data.linkToDownload)}
         />
-        <Button label={data.mobileBtn.labelIOS} styles="w-full text-white" />
+        <Button
+          label={data.mobileBtn.labelIOS}
+          styles="w-full text-white"
+          onClick={(e: MouseEvent) => smoothScroll(e, data.linkToDownload)}
+        />
       </div>
     </section>
   );

@@ -1,6 +1,8 @@
 import { ImgPlaceholder, List, ListTitle, Title } from '@/components/ui';
 import data from '@/data/functionality.json';
 
+import SectionImg from '../../../public/images/image_placeholder-mob.png';
+
 export const Functionality = () => {
   return (
     <section className="section" id={data.id}>
@@ -21,7 +23,12 @@ export const Functionality = () => {
       </div>
 
       <div className="m-auto w-full ">
-        <ImgPlaceholder imgAlt={data.imgAlt} />
+        <ImgPlaceholder
+          staticImg={SectionImg}
+          imgAlt={data.imgAlt}
+          imgMobSrc="/images/image_placeholder-mob.png"
+          imgTabSrc="/images/image_placeholder-tab.png"
+        />
       </div>
     </section>
   );

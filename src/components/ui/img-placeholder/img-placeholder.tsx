@@ -1,27 +1,27 @@
 import React, { FC } from 'react';
-import Image from 'next/image';
-
-import imagePlaceholderMob from '../../../../public/images/image_placeholder-mob.png';
+import Image, { StaticImageData } from 'next/image';
 
 export interface Props {
   imgAlt: string;
+  imgMobSrc: string;
+  imgTabSrc: string;
+  staticImg: StaticImageData;
 }
 
-export const ImgPlaceholder: FC<Props> = ({ imgAlt }) => {
+export const ImgPlaceholder: FC<Props> = ({
+  imgAlt,
+  imgMobSrc,
+  imgTabSrc,
+  staticImg,
+}) => {
   return (
     <picture>
-      <source
-        media="(min-width: 768px)"
-        srcSet="/images/image_placeholder-tab.png"
-      />
+      <source media="(min-width: 768px)" srcSet={imgTabSrc} />
 
-      <source
-        media="(min-width: 320px)"
-        srcSet="/images/image_placeholder-mob.png"
-      />
+      <source media="(min-width: 320px)" srcSet={imgMobSrc} />
 
       <Image
-        src={imagePlaceholderMob}
+        src={staticImg}
         alt={imgAlt}
         style={{
           objectFit: 'fill',
