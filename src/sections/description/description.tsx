@@ -1,5 +1,7 @@
 import { Button, List, ListTitle, Title } from '@/components/ui';
 import data from '@/data/description.json';
+import { smoothScroll } from '@/utils';
+import { MouseEvent } from 'react';
 
 export const Description = () => {
   return (
@@ -17,7 +19,11 @@ export const Description = () => {
         </div>
       </div>
 
-      <Button label={data.desktopBtn.label} />
+      <Button
+        label={data.desktopBtn.label}
+        styles="text-white"
+        onClick={(e: MouseEvent) => smoothScroll(e, data.linkToDownload)}
+      />
     </section>
   );
 };

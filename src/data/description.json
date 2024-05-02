@@ -25,7 +25,7 @@
     ]
   },
   "rightColumnData": {
-    "label": "Можливо:",
+    "label": "Та якщо:",
     "rightColumnPts": [
       {
         "label": "Ви проводите час з дитиною на дитячих майданчиках"
@@ -41,5 +41,6 @@
       }
     ]
   },
-  "desktopBtn": { "label": "Завантажити SafeKid" }
+  "desktopBtn": { "label": "Завантажити SafeKid" },
+  "linkToDownload": "#download-app"
 }

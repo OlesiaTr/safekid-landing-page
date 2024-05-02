@@ -75,7 +75,7 @@ export const Relevance = () => {
       {data.relevancePts.map((item, id) => (
         <p
           key={id}
-          className="mb-10 leading-normal odd:font-semibold md:text-lg xl:text-2xl "
+          className="mb-6 leading-normal odd:font-semibold md:text-lg xl:text-2xl "
         >
           {item.label}
         </p>
@@ -97,12 +97,12 @@ export const Relevance = () => {
       {isClicked ? (
         <>
           <span
-            className="mb-2 cursor-pointer select-none leading-normal text-blue underline transition md:text-lg xl:text-2xl "
+            className="mb-4 cursor-pointer select-none leading-normal text-blue underline transition md:text-lg xl:text-2xl "
             onClick={onMoreDetailsClick}
           >
             {data.inMoreDetails.clickableToClose}
           </span>
-          <div className="mb-10">
+          <div className="mb-6">
             <p className=" leading-normal md:text-lg xl:text-2xl ">
               <strong>{boldFirst}</strong>
               {afterFirst}
