@@ -2,8 +2,8 @@ import data from '@/data/footer.json';
 
 export const Footer = () => {
   return (
-    <footer className="flex flex-col items-center justify-center gap-4 bg-neutral-300 py-4 md:py-8 xl:gap-10 xl:py-[60px]  ">
-      <div className="flex gap-9 text-sm xl:gap-[72px] xl:text-xl">
+    <footer className="flex flex-col items-center justify-center gap-4 bg-accent py-4 md:py-8 xl:gap-10 xl:py-[60px]  ">
+      <div className="flex gap-9 text-sm text-white xl:gap-[72px] xl:text-xl">
         <p className="hidden md:block ">
           {data.devs.label}&nbsp;
           {data.devs.creators.map(creator => (
@@ -34,9 +34,22 @@ export const Footer = () => {
           </a>
         </p>
       </div>
-      <span className="text-sm text-neutral-400 md:text-base">
+      <span className="hidden text-sm text-white md:block md:text-base">
         {data.copyrights.label}
       </span>
+      <p className="max-w-[380px] text-center text-sm text-white md:hidden ">
+        {data.devs.label}&nbsp;
+        {data.devs.creators.map(creator => (
+          <a
+            key={creator.label}
+            href={creator.href}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <span>{creator.label}</span>
+          </a>
+        ))}
+      </p>
     </footer>
   );
 };
