@@ -18,8 +18,8 @@ export const ScrollToTopBtn: FC<Props> = ({ sectionIdStart }) => {
       href="/"
       className={clsx(
         css.scrollBtn,
-        'fixed bottom-10 right-1 size-14 cursor-pointer bg-purple-100 text-white transition',
-        'z-[2] rounded-full hover:bg-purple-300',
+        'fixed bottom-10 right-1 size-14 cursor-pointer bg-violet-100 text-white transition',
+        'z-[2] rounded-full hover:bg-hover active:bg-pressed',
         { 'opacity-0': !isVisible },
       )}
       onClick={(e: MouseEvent) => smoothScroll(e)}

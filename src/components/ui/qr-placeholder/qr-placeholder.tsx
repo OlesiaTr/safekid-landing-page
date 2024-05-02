@@ -9,7 +9,7 @@ export interface Props {
 
 export const QRPlaceholder: FC<Props> = ({ btnLabel }) => {
   return (
-    <div className="   text-center   lg:min-w-[355px] xl:min-w-[495px]">
+    <div className="   text-center text-white   lg:min-w-[355px] xl:min-w-[495px]">
       <Button label={btnLabel} styles="md:mb-6 min-w-[350px] lg:w-full" />
       <Image
         src={placeholderQR}

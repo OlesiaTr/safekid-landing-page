@@ -26,6 +26,9 @@ const config: Config = {
       colors: {
         accent: '#374785',
         blue: '#2563EB',
+        pressed: '#7D5DFF',
+        hover: '#455593',
+        focused: '#374785',
       },
     },
   },

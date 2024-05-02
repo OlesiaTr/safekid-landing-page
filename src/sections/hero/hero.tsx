@@ -38,8 +38,9 @@ export const Hero = () => {
       <div className="hidden md:block">
         <Button
           label={data.desktopBtn.label}
-          styles="bg-white bg-opacity-30 border-[3px] border-accent text-accent text-[32px]"
+          styles="bg-white bg-opacity-30 border-[3px] border-accent text-accent text-[32px] hover:border-hover focus:border-focused active:border-pressed hover:text-hover focus:text-focused active:text-pressed"
           onClick={(e: MouseEvent) => smoothScroll(e, data.linkToDownload)}
+          accentBtn
         />
       </div>
 
