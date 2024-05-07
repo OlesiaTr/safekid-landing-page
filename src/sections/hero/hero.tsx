@@ -37,22 +37,17 @@ export const Hero = () => {
 
       <div className="hidden md:block">
         <Button
-          label={data.desktopBtn.label}
+          label={data.btn.label}
           styles="bg-white bg-opacity-30 border-[3px] border-accent text-accent text-[32px] hover:border-hover focus:border-focused active:border-pressed hover:text-hover focus:text-focused active:text-pressed"
           onClick={(e: MouseEvent) => smoothScroll(e, data.linkToDownload)}
           accentBtn
         />
       </div>
 
-      <div className=" m-auto flex min-w-72 max-w-[350px] flex-col gap-4 md:hidden">
+      <div className=" m-auto flex min-w-[275px] max-w-[350px] flex-col gap-4 md:hidden">
         <Button
-          label={data.mobileBtn.labelAndroid}
+          label={data.btn.label}
           styles="w-full text-white "
-          onClick={(e: MouseEvent) => smoothScroll(e, data.linkToDownload)}
-        />
-        <Button
-          label={data.mobileBtn.labelIOS}
-          styles="w-full text-white"
           onClick={(e: MouseEvent) => smoothScroll(e, data.linkToDownload)}
         />
       </div>

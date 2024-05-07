@@ -21,7 +21,7 @@ export const Description = () => {
 
       <Button
         label={data.desktopBtn.label}
-        styles="text-white"
+        styles="text-white m-auto md:!ml-0"
         onClick={(e: MouseEvent) => smoothScroll(e, data.linkToDownload)}
       />
     </section>
