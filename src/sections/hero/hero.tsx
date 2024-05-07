@@ -21,7 +21,7 @@ export const Hero = () => {
 
   return (
     <section className="section hero mb-10 bg-neutral-300 pb-[236px] pt-36 md:mb-20 md:px-[60px] xl:pb-[205px] xl:pt-[200px]">
-      <div className="max-w-[770px] ">
+      <div className="slide-left max-w-[770px] ">
         <h1 className="mb-2 text-2xl font-semibold leading-normal md:text-4xl xl:text-5xl xl:leading-snug">
           {data.title}
         </h1>
