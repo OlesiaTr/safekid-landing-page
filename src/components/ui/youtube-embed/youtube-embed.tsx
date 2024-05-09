@@ -13,7 +13,7 @@ export const YoutubeEmbed: FC<Props> = ({ videoSrc, videoTitle }) => {
       style={{
         objectFit: 'fill',
         minHeight: '400px',
-        maxWidth: '1111px',
+        maxWidth: '1300px',
         maxHeight: '490px',
       }}
       src={videoSrc}
