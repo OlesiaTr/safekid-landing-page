@@ -13,12 +13,13 @@ export const YoutubeEmbed: FC<Props> = ({ videoSrc, videoTitle }) => {
       style={{
         objectFit: 'fill',
         minHeight: '400px',
-        maxWidth: '700px',
+        maxWidth: '1111px',
         maxHeight: '490px',
       }}
       src={videoSrc}
       title={videoTitle}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      referrerPolicy="strict-origin-when-cross-origin"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowFullScreen
     ></iframe>
   );

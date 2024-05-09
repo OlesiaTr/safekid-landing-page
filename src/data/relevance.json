@@ -1,6 +1,8 @@
 {
   "id": "#relevance",
   "title": "Актуальність",
+  "videoTitle": "Відео з соціальним експериментом",
+  "videoSrc": "https://www.youtube.com/embed/j4ZYnuPys8c",
   "imgAlt": "Дівчина стоїть біля автомобіля, забирає щось у людини всередині автомобіля",
   "relevanceFacts": [
     {

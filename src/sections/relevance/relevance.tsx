@@ -1,11 +1,9 @@
 'use client';
 
 import { MouseEvent, useState } from 'react';
-import { ImgPlaceholder, List, Title } from '@/components/ui';
+import { List, Title, YoutubeEmbed } from '@/components/ui';
 import data from '@/data/relevance.json';
 import { findSubstringIndices, smoothScroll } from '@/utils';
-
-import SectionImg from '../../../public/images/relevance_section_img-mob.jpg';
 
 export const Relevance = () => {
   const [isClicked, setIsClicked] = useState(false);
@@ -58,12 +56,7 @@ export const Relevance = () => {
     <section className="section " id={data.id}>
       <div className="mb-6 flex flex-col gap-10 md:mb-10 md:flex-row md:gap-16 lg:gap-[135px]">
         <div className="md:w-[700px] md:flex-1 ">
-          <ImgPlaceholder
-            staticImg={SectionImg}
-            imgAlt={data.imgAlt}
-            imgMobSrc="/images/relevance_section_img-mob.jpg"
-            imgTabSrc="/images/relevance_section_img-tab.jpg"
-          />
+          <YoutubeEmbed videoSrc={data.videoSrc} videoTitle={data.videoTitle} />
         </div>
 
         <div className="  self-start md:max-w-[525px] md:flex-1 ">
