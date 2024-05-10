@@ -17,9 +17,12 @@
       }
     ]
   },
-  "contactInfo": { "label": "Зворотній зв’язок", "href": "/" },
+  "contactInfo": {
+    "label": "Зворотній зв’язок",
+    "href": "https://t.me/safekids_supp_bot"
+  },
   "policy": {
     "label": "Конфіденційність",
-    "href": "/"
+    "href": "https://drive.google.com/file/d/1aa0c-R2CJNG67kU6dbmgjuUbTFxAf4oi/view?usp=sharing"
   }
 }
