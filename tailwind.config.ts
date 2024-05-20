@@ -29,6 +29,7 @@ const config: Config = {
         pressed: '#7D5DFF',
         hover: '#455593',
         focused: '#374785',
+        upBtn: '#9E8FDD',
       },
     },
   },
